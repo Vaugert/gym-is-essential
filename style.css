@@ -27,3 +27,25 @@ h1, h2 {
     font-size: 300%;
 
 }
+
+/* navigation */
+
+#menu {
+    font-size: 125%;
+    letter-spacing: 5px;
+}
+
+#menu, #logo {
+    line-height: 85px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
