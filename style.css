@@ -9,4 +9,21 @@
 body{
     font-family: Nanum Gothic, sans-serif;
      font-weight: 400;
+     color: #1e4961
+     ;
+}
+/* headings, logo */
+
+h1, h2 { 
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: #30241a;
+    letter-spacing: 5px;
+
+
+}
+#logo {
+    float: left;
+    font-size: 300%;
+
 }
