@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 40px;
 
 }
 
@@ -49,3 +50,82 @@ h1, h2 {
     text-decoration: none;
     color: inherit;
 }
+
+#menu a:hover {
+    border-bottom: 2px solid #30241a ;
+}
+
+.running {
+    border-bottom: 2px solid #30241a;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ 
+#cover-text, #cover-text h2 { 
+    color: #0e1824;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(./Images/shutterstock_699244396.png) no-repeat center center;
+}
+
+    #cover-text {
+        font-size: 120%;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+
+        width: 350px;
+        height: 250px;
+
+        padding-top: 50px;
+        padding-left: 5px;
+        background-color: #0d151f .1;
+        bottom: 30px;
+        right: 150px;
+        position: absolute;
+    }
+
+    /* Elite club middle section of the page*/
+
+#elite-club{
+    height: 600px;
+    margin-left: 50px;
+
+
+}
+
+#left-eliteclub {
+    float: left;
+    width: 33%;
+    padding-top: 40px;
+
+
+}
+#right-eliteclub { 
+    padding-top: 40px;
+    float:right;
+    width: 33%;
+}
+
+#mid-eliteclub{
+    width: 33%;
+    margin: 0 auto;
+}
+    
+    
+
+    
+    
+
+    
+
+
