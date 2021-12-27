@@ -69,7 +69,7 @@ h1, h2 {
 }
  
 #cover-text, #cover-text h2 { 
-    color: #bedafc;
+    color: #ffffff;
 
 }
 
@@ -92,7 +92,7 @@ h1, h2 {
         text-transform: uppercase;
         letter-spacing: 5px;
 
-        color: #bedafc;
+        color: #ffffff;
 
         
     }
@@ -139,6 +139,11 @@ h1, h2 {
     margin: 0 auto;
 }
     
+.left-eliteclub-H{
+    width: 60%;
+    float: left;
+    line-height: 40px;
+}
     
 
     
