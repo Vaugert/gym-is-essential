@@ -157,8 +157,8 @@ h1, h2 {
 
 #mid-eliteclub{
     width: 33%;
-    margin: 0 auto;
     padding-top: 40px;
+    margin: 0 auto;
 }
     
 .left-eliteclub-H{
@@ -197,6 +197,80 @@ h1, h2 {
     font-size: 35px; 
     margin-top: 30px;
 }
+
+#times div {
+    width: 25%;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+    
+}
+
+
+#s-training{
+    background: url(./Images/S\ training.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+#crossfit{
+    background: url(./Images/Crossfit.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#interval {
+    background: url(./Images/Hiit.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+#times h2 {
+    color: rgb(218, 185, 166);
+}
+
+#times h3 {
+    color: rgb(184, 233, 255);
+}
+
+
+footer {
+        margin-bottom: 0px;
+        height: 150px;
+        width: 100%;
+
+        
+     }
+    
+.social-networks {
+    text-align: center;
+    
+}
+
+.social-networks > li {
+    display: inline;
+}
+
 
     
     
