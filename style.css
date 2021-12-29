@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&family=Oswald:wght@300&family=Playfair+Display&display=swap');
+@import url(@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&family=Oswald:wght@300&family=Playfair+Display&family=Spline+Sans:wght@300&display=swap');
 
 * { 
     margin: 0;
@@ -15,7 +15,7 @@ body{
 /* headings, logo */
 
 h1, h2 { 
-    font-family: Lato, sans-serif;
+    font-family: Nanum Gothic, sans-serif;
     text-transform: uppercase;
     color: #30241a;
     letter-spacing: 5px;
@@ -144,19 +144,19 @@ h1, h2 {
 
 #left-eliteclub {
     float: left;
-    width: 33%;
+    width: 50%;
     padding-top: 40px;
 
 
 }
 #right-eliteclub { 
     float: right;
-    width: 33%;
+    width: 50%;
     padding-top: 40px;
 }
 
 #mid-eliteclub{
-    width: 33%;
+    width: 70%;
     padding-top: 40px;
     margin: 0 auto;
 }
@@ -164,7 +164,7 @@ h1, h2 {
 .left-eliteclub-H{
     width: 85%;
     float: left;
-    line-height: 60px;
+    line-height: 50px;
     margin-bottom: 40px;
     clear:both;
     font-size: large;
@@ -173,7 +173,7 @@ h1, h2 {
 .right-eliteclub-H {
     width: 85%;
     float: right;
-    line-height: 60px;
+    line-height: 50px;
     margin-bottom: 40px;
     clear:both;
     font-size: large;
@@ -198,10 +198,16 @@ h1, h2 {
     margin-top: 30px;
 }
 
+#times {
+    
+    
+    
+}
+
 #times div {
     width: 25%;
-    margin-top: 150px;
-    margin-bottom: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 300px;
     float: left;
     padding-top: 20px;
@@ -214,12 +220,13 @@ h1, h2 {
 
 
 #s-training{
-    background: url(./Images/S\ training.jpg);
+    background: url(./Images/shutterstock_1931268122.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+    
     
 }
 
@@ -251,25 +258,114 @@ h1, h2 {
 
 #times h3 {
     color: rgb(184, 233, 255);
+    text-align: left;
+}
+
+
+
+/* form */
+
+.form-section {
+    clear: left;
+    background: url(./Images/shutterstock_1521875381.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.signup-form {
+    
+    
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#Book-h3 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #30241a;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #30241a;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #30241a;
 }
 
 
 footer {
-        margin-bottom: 0px;
-        height: 150px;
-        width: 100%;
-
-        
+     
+    height: 150px;
+    bottom: 0;
+    border: 2px solid black;
+    background-color:#1d1d1d ;
+     
      }
+
+#contact {
+    text-align:left;
+    color: rgb(218, 185, 166);
+    font-size: 15px;
     
-.social-networks {
-    text-align: center;
+}     
+
+footer div h2 {
+    color: rgb(184, 233, 255);
+    font-size: 20px;
     
 }
 
-.social-networks > li {
-    display: inline;
+
+    
+.social-links {
+    text-align: right;
+    
 }
+
+.social-links > li {
+    display: inline;
+
+}
+
+.social-links i {
+    font-size: 100%;
+    
+    padding: 2%;
+    color: rgb(184, 233, 255);
+}
+
 
 
     
