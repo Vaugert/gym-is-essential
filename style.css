@@ -367,7 +367,59 @@ footer div h2 {
 }
 
 
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+        #left-eliteclub { width: 100%;
 
+        }
+        #right-eliteclub{
+            width:100%;
+        }
+        #menu li {
+            width: 100%;
+        }
+        #logo {
+            width: 100%;
+            float: left;
+            margin-left: 10px;
+        }
+        .signup-form {
+            float: left;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    #times div {
+        width: 100%;
+        
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px ) */
+@media screen and (max-width: 992px){
+    #menu li { 
+        float: left;
+        margin-left: 20px;
+    }
+    #logo{
+        width: 90%;
+        
+    }
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    
+}
     
     
 
