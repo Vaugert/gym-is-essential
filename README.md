@@ -51,6 +51,13 @@ Mike is a bodybuilder and nutritionist who is coaching and helping people with d
 
 # Validator Testing
 
+![image](https://user-images.githubusercontent.com/95358346/147786274-0112fafe-62a9-49c6-b0f7-de55ef35a938.png)
+
+
+
+# bugs 
+- media Query is sometimes bugged, sometimes it makes even the fullscreen version look like the smallest screen version, so i just made some overall changes to prevent this from happening, example the pricing section i made a 100% instead of 25% like it was in the beginning. 
+
 
 
 # credits
