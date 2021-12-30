@@ -1,8 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 # Gym Is Essential
 Gym Is Essential-Eliteclub is a page created to help two personal trainers get their real life and online customers to sign up and begin a proccess with one of the coaches online.
 John is an ex Cross-fit Professional who is coaching in cross-fit and HIIT training.
 Mike is a bodybuilder and nutritionist who is coaching and helping people with diet plans and training programs.
+
+![image](https://user-images.githubusercontent.com/95358346/147787332-cf281e83-1cfe-4bcd-92a7-9626552c9336.png)
 
 
 
@@ -53,10 +55,12 @@ Mike is a bodybuilder and nutritionist who is coaching and helping people with d
 
 ![image](https://user-images.githubusercontent.com/95358346/147786274-0112fafe-62a9-49c6-b0f7-de55ef35a938.png)
 
+![image](https://user-images.githubusercontent.com/95358346/147786945-4874e4ca-5489-450e-b699-0df399612db4.png)
+
 
 
 # bugs 
-- media Query is sometimes bugged, sometimes it makes even the fullscreen version look like the smallest screen version, so i just made some overall changes to prevent this from happening, example the pricing section i made a 100% instead of 25% like it was in the beginning. 
+- Different media Querys is sometimes bugged. From time to time when i enter Dev tools it does different things to different sizes even though i have not touched the code, sometimes it makes even the fullscreen version look like the smallest screen version, so i just made some overall changes to prevent this from happening, example: the pricing section i made a 100% instead of 25% like it was in the beginning in full screen. 
 
 
 
