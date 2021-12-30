@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&family=Oswald:wght@300&family=Playfair+Display&family=Spline+Sans:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nanum+Gothic&display=swap');
 
 * { 
     margin: 0;
@@ -90,7 +90,7 @@ h1, h2 {
 }
 
     #cover-text {
-        font-size: 120%;
+        font-size: 100%;
         font-family: Lato, sans-serif;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -208,15 +208,15 @@ h1, h2 {
 }
 
 #times div {
-    width: 25%;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
     height: 300px;
     float: left;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
     text-align: center;
-    border: 3px solid white;
+    border: 2px solid white;
     box-sizing: border-box;
     
 }
@@ -245,7 +245,7 @@ h1, h2 {
 }
 
 #interval {
-    background: url(./Images/Hiit.jpg) ;
+    background: url(./Images/Crossfit.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -273,8 +273,8 @@ h1, h2 {
     background: url(./Images/shutterstock_1521875381.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
-    margin-bottom: 50px;
+    height: 550px;
+    margin-bottom: 35px;
 }
 
 .signup-form {
@@ -393,6 +393,10 @@ footer div h2 {
         height: 200px;
     }
 
+        #cover-text {
+            font-size: 100%;
+        }
+
     
 
         #left-eliteclub { width: 100%;
@@ -447,6 +451,9 @@ footer div h2 {
 
 /* Large devices (laptops/desktops, 992px ) */
 @media screen and (max-width: 992px){
+    #times div {
+        width: 100%;
+    }
 
     #menu {
         display: flex;
@@ -481,7 +488,10 @@ footer div h2 {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px){
+@media  screen and (min-width: 1200px){
+    #times div {
+        width: 100%;
+    }
     
 }
     
