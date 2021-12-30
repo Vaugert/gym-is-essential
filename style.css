@@ -46,6 +46,9 @@ h1, h2 {
     margin-right: 40px;
 }
 
+
+
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -366,9 +369,32 @@ footer div h2 {
     color: rgb(184, 233, 255);
 }
 
+@media screen and (max-width: 375px) {
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #menu {
+        font-size: 100%;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    
+
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
+    header {
+        height: 200px;
+    }
+
+    
+
         #left-eliteclub { width: 100%;
 
         }
@@ -377,14 +403,31 @@ footer div h2 {
         }
         #menu li {
             width: 100%;
+            
         }
         #logo {
             width: 100%;
             float: left;
             margin-left: 10px;
+            font-size: 250%;
         }
         .signup-form {
             float: left;
+        }
+
+        #sign-up-button {
+            width: 100%;
+        }
+    
+        #home-button {
+            width: 100%;
+            
+        }
+    
+        #about-us-button {
+            width: 100%;
+            
+    
         }
 }
 
@@ -404,9 +447,30 @@ footer div h2 {
 
 /* Large devices (laptops/desktops, 992px ) */
 @media screen and (max-width: 992px){
+
+    #menu {
+        display: flex;
+        float: left;
+        
+    }
+
+    #sign-up-button {
+        order: 3;
+    }
+
+    #home-button {
+        order: 1;
+    }
+
+    #about-us-button {
+        order: 2;
+
+    }
+
     #menu li { 
         float: left;
         margin-left: 20px;
+
     }
     #logo{
         width: 90%;
